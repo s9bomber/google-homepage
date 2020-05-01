@@ -1,0 +1,1 @@
+Hello. This is my first attempt at making a web page from sctatch. Im using VS Code to write this. I have crated a GitHub repository called google-homepage and I will push all of my files to it. 
