@@ -2,7 +2,27 @@
 <html>
     
     <style>
-       
+        .searchbar{
+            margin-top:25px;
+            margin-left:525px;
+            width:100%;
+        }
+        .bar{
+            border-radius:0;
+            -webkit-box-shadow: 2px 3px 0px -2px #ccc;
+            padding:10px;
+            border:0px;
+            outline: none;
+            border-top: 1px solid #ccc;
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            border-botom: 1px solid #ccc;
+            border-radius: 15%;
+        }
+        .center{
+            margin-top:200px;
+            margin-left:500px;
+        }
     </style>
     <head>
         
@@ -15,14 +35,14 @@
         
     <body>
         <div>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" >
+            <img class="center" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" >
            
         <div>
-            <form
-                style='margin: 50px'
-                action="http://www.google.com/search" 
-                method="get">
-                <input type="text" name="q"/>
+            <form 
+            class="searchbar"
+            action="http://www.google.com/search" method="get">
+                
+                <input class="bar"type="text" name="q"/>
                 <input type="submit" value="search" />
             </form>
         </div>
